@@ -1,9 +1,11 @@
 capsule {
-  id (httpcall.jwbtest)
+  id (jwbtest.httpcall)
   version (0.1.0)
   format (3)
   targets {
+    target (bixby-mobile-ko-KR)//KOREAN
     target (bixby-mobile-en-US)
+    {enabled (false)}
   }
   runtime-flags {
     concepts-inherit-super-type-features
